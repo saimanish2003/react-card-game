@@ -1,70 +1,52 @@
-# Getting Started with Create React App
+###4x4 Card Game
+==============
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A fun and interactive 4x4 card matching game built with React. In this game, players need to match pairs of cards in a grid layout. The game is designed to test your memory and speed as you try to find matching pairs while keeping track of your moves and time.
 
-## Available Scripts
+###Features
+--------
+- 4x4 Grid: A 4x4 grid of cards, shuffled randomly at the start of each game.
+- Card Matching: Flip cards and match pairs based on identical images or values.
+- Moves Counter: Track the number of moves made during the game.
+- Timer: Keep track of the elapsed time during the game session.
+- Victory Condition: The game ends when all pairs are matched, and your moves and time are displayed.
 
-In the project directory, you can run:
+###Technologies Used
+-----------------
+- React: For building the user interface and managing the game state.
+- CSS: For styling the game and making it responsive.
+- JavaScript: For game logic and functionality (matching cards, move counter, timer).
 
-### `npm start`
+###How to Play
+------------
+1. **Start the Game**: The game will start with a shuffled deck of cards faced down.
+2. **Flip Cards**: Click on a card to flip it over. Try to find its matching pair.
+3. **Match Pairs**: If you find a matching pair, they will stay face-up. If they don't match, they will flip back over.
+4. **Track Progress**: Keep an eye on the number of moves and the timer to track your progress.
+5. **Game Over**: The game ends when all pairs are matched. Your final score (moves and time) will be displayed.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+###Getting Started
+---------------
+To play the game, visit the following link:
+https://saimanish2003.github.io/react-card-game
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+To run the game locally, follow these steps:
 
-### `npm test`
+1. **Clone the Repository**:
+   git clone https://github.com/your-username/4x4-card-game.git
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+2. **Install Dependencies**:
+   Navigate to the project folder and run:
+   npm install
 
-### `npm run build`
+3. **Start the Development Server**:
+   npm start
+   This will start the app in your browser at http://localhost:3000.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+###Contributing
+------------
+Feel free to fork the project, submit issues, or create pull requests. Contributions are always welcome!
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+###License
+-------
+This project is licensed under the MIT License - see the LICENSE file for details.
